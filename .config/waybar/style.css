@@ -1,0 +1,111 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 16px;
+}
+window#waybar {
+  background: transparent;
+}
+
+#workspaces {
+  margin-top: 5px;
+	background-color: #282828;
+	border-radius: 5px;
+  margin-left: 10px;
+}
+#workspaces button {
+  border-top: 2px solid #b8bb26;
+  border-bottom: 2px solid #b8bb26;
+  padding: 5px 10px;
+  color: #ebdbb2;
+}
+
+#workspaces button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 2px solid #b8bb26;
+  border-right: none;
+}
+
+#workspaces button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid #b8bb26;
+  border-left: none;
+}
+
+#workspaces button:only-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid #b8bb26;
+}
+
+#workspaces button.active {
+	background-color: #b8bb26;
+  color: #282828;
+}
+
+#workspaces button:hover {
+	background-color: #b8bb26;
+  color: #282828;
+}
+
+#bluetooth, #backlight, #clock, #battery, #pulseaudio, #network, #custom-power {
+  border: 2px solid #b8bb26;
+  
+  color: #ebdbb2;
+	background-color: #282828;
+  border-radius: 5px;
+	padding: 5px 10px;
+	margin: 0px 5px;
+  margin-top: 5px;
+}
+
+
+#custom-power {
+  border: 2px solid #fe8019;
+	color: #282828;
+	background-color: #fe8019;
+  margin-right: 10px;
+  padding-right: 13px;
+}
+
+#backlight {
+  margin-right: 0;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#pulseaudio {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#bluetooth {
+  margin-right: 0;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#clock {
+  margin-right: 10px;
+}
+
+#network {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#battery.warning:not(.charging) {
+  background-color: #f7768e;
+  border-radius: 5px 5px 5px 5px;
+}

@@ -1,0 +1,11 @@
+/* Rofi config file */
+configuration {
+    font:   "JetBrainsMono Nerd Font 12";
+    show-icons: true;
+    display-window: "Window";
+    display-drun: "Search";
+    icon-theme: "Papirus-Dark";
+}
+
+@theme "squared-everforest"
+

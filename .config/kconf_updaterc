@@ -1,0 +1,11 @@
+updateInfoAdded=true
+
+[dolphin_detailsmodesettings.upd]
+ctime=1704886155
+done=rename-leading-padding,move-content-display
+mtime=1697008884
+
+[filepicker.upd]
+ctime=1704886154
+done=filepicker-remove-old-previews-entry
+mtime=1697115550
